@@ -1,5 +1,7 @@
 package spring;
 
+import java.util.Date;
+
 public class ChangePasswordService {
 	private MemberDao memberDao;
 	
@@ -18,5 +20,3 @@ public class ChangePasswordService {
 		memberDao.update(member);
 	}
 }
-	
-

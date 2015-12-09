@@ -9,7 +9,7 @@ public class Member {
 	private String	name;
 	private Date	registerDate;
 	
-	public Member(Long id, String email, String password, String name, Date registerDate) {
+	public Member(String email, String password, String name, Date registerDate) {
 		
 		this.email = email;
 		this.password = password;
