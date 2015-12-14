@@ -1,5 +1,8 @@
 package spring;
 
+import org.springframework.stereotype.Component;
+
+
 public class RegisterRequest {
 	private String name;
 	private String password;

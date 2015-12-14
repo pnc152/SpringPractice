@@ -2,6 +2,8 @@ package spring;
 
 import java.util.Collection;
 
+import org.springframework.stereotype.Component;
+
 public class MemberListPrinter {
 	private MemberDao memberdao;
 	private MemberPrinter printer;

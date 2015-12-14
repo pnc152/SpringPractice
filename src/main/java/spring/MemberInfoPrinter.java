@@ -1,5 +1,8 @@
 package spring;
 
+import org.springframework.stereotype.Component;
+
+
 public class MemberInfoPrinter {
 	private MemberDao memberDao;
 	private MemberPrinter printer;

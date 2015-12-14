@@ -1,5 +1,8 @@
 package spring;
 
+import org.springframework.stereotype.Component;
+
+
 public class Assembler {
 	private MemberDao memberDao;
 	private MemberRegisterService regSvc;

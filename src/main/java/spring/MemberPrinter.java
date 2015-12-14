@@ -1,5 +1,7 @@
 package spring;
 
+import org.springframework.stereotype.Component;
+
 
 //전체 회원을 조회해서 화면에 출력해주는 서비스 담당
 public class MemberPrinter {

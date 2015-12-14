@@ -2,6 +2,8 @@ package spring;
 
 import java.util.Date;
 
+import org.springframework.stereotype.Component;
+
 public class Member {
 	private Long 	id;
 	private String	email;
